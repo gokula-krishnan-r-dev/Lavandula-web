@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-banner {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://cdn.b12.io/media/9ae67356-3c8e-11e8-9369-0242ac11000f-apple-desk-office-working-8841-hero_image.jpeg);
+  background-attachment: fixed;
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+}
