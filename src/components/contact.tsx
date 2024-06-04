@@ -14,7 +14,7 @@ const Contact = () => {
             GET IN TOUCH{" "}
           </p>
           <h2 className="font-medium text-black text-2xl sm:text-4xl dark:text-white">
-            Let's connect for a tech transformation
+            Let&#39;s connect for a tech transformation
           </h2>
           <p className="">
             Reach out to us today to discuss how our IT solutions can accelerate

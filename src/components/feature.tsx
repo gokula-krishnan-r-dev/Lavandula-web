@@ -21,7 +21,7 @@ const features: Feature[] = [
 
     brifDescription: (
       <span>
-        In today's rapidly evolving digital landscape, businesses that embrace
+        In today&#39;s rapidly evolving digital landscape, businesses that embrace
         the latest technology in website development are poised to gain a
         significant competitive edge. A tailored website, crafted with the most
         innovative tools and techniques, can serve as a powerful platform to

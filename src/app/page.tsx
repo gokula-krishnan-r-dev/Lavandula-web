@@ -202,15 +202,15 @@ export default function Home() {
             </h2>
             <p className="mt-6 text-gray-700 dark:text-gray-300">
               When it comes to your business, one-size-fits-all solutions simply
-              won't do. Your organization is unique, with its own distinct
-              challenges, goals, and needs. That's why you require tailored
+              won&#39;t do. Your organization is unique, with its own distinct
+              challenges, goals, and needs. That&#39;s why you require tailored
               solutions that are specifically designed to address your specific
               requirements. By working closely with you to understand the
               intricacies of your business, we can craft innovative strategies
               and implement customized tools that will propel your company
               forward. <br /> <br /> Our team of experts takes the time to
               deeply analyze your operations, identify areas for improvement,
-              and develop a comprehensive plan of action. Whether it's
+              and develop a comprehensive plan of action. Whether it&#39;s
               streamlining your workflows, optimizing your technology
               infrastructure, or enhancing your customer experience, we have the
               expertise to deliver solutions that align perfectly with your

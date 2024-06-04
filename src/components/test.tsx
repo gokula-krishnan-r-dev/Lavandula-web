@@ -66,9 +66,9 @@ const Test = () => {
                 </svg>
                 <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white">
                   <em>
-                    " I'm absolutely floored by the level of care and attention
+                     Im absolutely floored by the level of care and attention
                     to detail the team at HS have put into this theme and for
-                    one can guarantee that I will be a return customer. "
+                    one can guarantee that I will be a return customer. 
                   </em>
                 </p>
               </div>
@@ -100,9 +100,9 @@ const Test = () => {
                 </svg>
                 <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white">
                   <em>
-                    " With Preline, we're able to easily track our performance
-                    in full detail. It's become an essential tool for us to grow
-                    and engage with our audience. "
+                     With Preline, we&#39;re able to easily track our performance
+                    in full detail. It&#39;s become an essential tool for us to grow
+                    and engage with our audience. 
                   </em>
                 </p>
               </div>
@@ -222,9 +222,9 @@ const Test = () => {
                 </svg>
                 <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white">
                   <em>
-                    " In September, I will be using this theme for 2 years. I
-                    went through multiple updates and changes and I'm very glad
-                    to see the consistency and effort made by the team. "
+                     In September, I will be using this theme for 2 years. I
+                    went through multiple updates and changes and I&#39;m very glad
+                    to see the consistency and effort made by the team. 
                   </em>
                 </p>
               </div>
