@@ -3,12 +3,14 @@ import Contact from "@/components/contact";
 import FeaturesSection from "@/components/feature";
 import Test from "@/components/test";
 import { ChevronRight } from "lucide-react";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
-      <section className="h-screen bg-banner  flex items-center justify-center">
+    <main className="min-h-screen duration-500 bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
+      <section
+        id="home"
+        className="h-screen bg-banner  flex items-center justify-center"
+      >
         {/* Hero */}
         {/* <img
           className="absolute inset-0 object-cover w-full h-full z-0"
@@ -20,7 +22,7 @@ export default function Home() {
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
             {/* Announcement Banner */}
             <div className="flex justify-center">
-              <a
+              {/* <a
                 className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-xs text-gray-600 p-2 px-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-400"
                 href="#"
               >
@@ -44,7 +46,7 @@ export default function Home() {
                     <path d="m9 18 6-6-6-6" />
                   </svg>
                 </span>
-              </a>
+              </a> */}
             </div>
             {/* End Announcement Banner */}
             {/* Title */}
@@ -62,8 +64,8 @@ export default function Home() {
             {/* Buttons */}
             <div className="mt-8 gap-3 flex justify-center">
               <a
-                className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full py-3 px-4 dark:focus:ring-offset-gray-800"
-                href="#"
+                className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-[#32aa27]  border border-transparent text-white text-sm font-medium rounded-full py-3 px-4 dark:focus:ring-offset-gray-800"
+                href="#service"
               >
                 <ChevronRight />
                 Real More
@@ -75,7 +77,7 @@ export default function Home() {
         {/* End Hero */}
       </section>
       <Client />
-      <section>
+      <section id="solution">
         {/* Features */}
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           {/* Grid */}
@@ -184,14 +186,14 @@ export default function Home() {
         {/* End Features */}
       </section>
 
-      <section className="relative py-32">
-        <div
+      <section id="service" className="relative py-32">
+        {/* <div
           aria-hidden="true"
           className="absolute inset-0 top-60 grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-30"
         >
           <div className="h-60 bg-gradient-to-br from-primary to-purple-400 blur-[106px] dark:from-blue-700" />
           <div className="h-40 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600" />
-        </div>
+        </div> */}
         <div className="relative mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
           <p className="text-base text-center font-semibold text-green-600">
             OUR SERVICES

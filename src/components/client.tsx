@@ -2,7 +2,7 @@ import React from "react";
 
 const Client = () => {
   return (
-    <section>
+    <section id="customer">
       <div className=" px-5 py-24 mx-auto lg:px-16">
         <div className="flex flex-col w-full mb-8 text-center">
           <span className="mb-4 text-sm font-medium tracking-wide text-gray-500 uppercase">

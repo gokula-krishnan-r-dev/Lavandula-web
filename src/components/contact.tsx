@@ -3,7 +3,7 @@ import Form, { WorkingHoursList } from "./form";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contactus">
       {/* Contact */}
       <div
         id="contact"

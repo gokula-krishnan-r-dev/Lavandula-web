@@ -21,11 +21,11 @@ const features: Feature[] = [
 
     brifDescription: (
       <span>
-        In today&#39;s rapidly evolving digital landscape, businesses that embrace
-        the latest technology in website development are poised to gain a
-        significant competitive edge. A tailored website, crafted with the most
-        innovative tools and techniques, can serve as a powerful platform to
-        showcase your brand, engage your target audience, and drive tangible
+        In today&#39;s rapidly evolving digital landscape, businesses that
+        embrace the latest technology in website development are poised to gain
+        a significant competitive edge. A tailored website, crafted with the
+        most innovative tools and techniques, can serve as a powerful platform
+        to showcase your brand, engage your target audience, and drive tangible
         results for your business. <br /> <br /> By leveraging the latest
         advancements in web development, you can create a website that is not
         only visually stunning but also highly functional and user-friendly.
@@ -135,7 +135,7 @@ const FeaturesSection: React.FC = () => {
                 }
               >
                 <div className="">
-                  <ScrollArea className="max-h-96 mt-5">
+                  <ScrollArea className="h-96 mt-5">
                     <div className="">
                       <img
                         src={feature.imageSrc}

@@ -213,33 +213,37 @@ const workingHours: WorkingHour[] = [
 export const WorkingHoursList: React.FC = () => {
   const [hours, setHours] = useState(workingHours);
 
-  const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLSelectElement>,
-    index: number,
-    field: "from" | "to"
-  ) => {
-    const newHours = [...hours];
-    newHours[index][field] = e.target.value;
-    setHours(newHours);
-  };
-
   return (
-    <ol aria-label="Working hours" className="hours-list">
-      {hours.map((hour, index) => (
-        <li key={hour.day} className="hours-list__item flex items-center gap-6">
-          <div className="hours-list__day">
-            {hour.day}
-            <span className="hidden-xs-down hidden-sm-down hidden-md-down">
-              {hour.fullDay.slice(3)}
-            </span>
-          </div>
-          <div className="hours-list__from">
-            <span>
-              {hour.from} - {hour.to}
-            </span>
-          </div>
-        </li>
-      ))}
-    </ol>
+    <div className="max-w-xl mx-auto p-4">
+      <h2 className="text-2xl font-bold mb-4">Working Hours</h2>
+      <ol aria-label="Working hours" className="list-decimal flex items-center">
+        <div className="">
+          {hours.map((hour, index) => (
+            <li
+              key={hour.day}
+              className="flex items-center justify-between w-max py-2 "
+            >
+              <div className="flex items-center">
+                <span className="font-semibold mr-2">{hour.fullDay}</span>
+              </div>
+            </li>
+          ))}
+        </div>
+        <div className="pl-8">
+          {hours.map((hour, index) => (
+            <li
+              key={hour.day}
+              className="flex items-center justify-between w-max py-2 "
+            >
+              <div className="flex items-center space-x-2">
+                <span>
+                  {hour.from} - {hour.to}
+                </span>
+              </div>
+            </li>
+          ))}
+        </div>
+      </ol>
+    </div>
   );
 };

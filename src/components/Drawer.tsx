@@ -31,9 +31,7 @@ export function DrawerDemo({ button, children, title, description }: any) {
           {children}
           <DrawerFooter>
             <DrawerClose asChild>
-              <Button variant="outline">
-                <a href="#contact">Contact us </a>
-              </Button>
+              <Button variant="outline">Close</Button>
             </DrawerClose>
           </DrawerFooter>
         </div>
