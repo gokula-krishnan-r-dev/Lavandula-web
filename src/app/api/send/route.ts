@@ -4,6 +4,8 @@ const resend = new Resend("re_V697c5jZ_6sE457E2qrpZqr4YUvt3Qbr8");
 export async function POST(request: any) {
   try {
     const body = await request.json();
+    console.log(body, "body");
+
     const { firstName, location, email, phoneNumber, details } = body;
 
     const submissionDate = new Date().toLocaleString();
@@ -41,7 +43,7 @@ export async function POST(request: any) {
 
     const { data, error } = await resend.emails.send({
       from: "Ampire <onboarding@resend.dev>",
-      to: ["gokulakrishnanr812@gmail.com"], // Replace with the admin's email address
+      to: ["business@lavandula.in"], // Replace with the admin's email address
       subject: "New Contact Form Submission",
       html: htmlContent,
     });

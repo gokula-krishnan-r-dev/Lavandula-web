@@ -16,7 +16,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/programming-background-collage_23-2149901791.jpg?t=st=1718727134~exp=1718730734~hmac=3c20692774f9ef6619111e81f8ee251dd476a20e65275a16a6fa19cb41e87de7&w=2000",
     alt: "Website Development Image",
     brifDescription: (
       <span>
@@ -50,7 +50,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?t=st=1718727190~exp=1718730790~hmac=afe6baa0b0175cf4021e72842eadc7f0e24caec9124a84944f9025b59137753f&w=2000",
     alt: "Web App Development Image",
     brifDescription: (
       <span>
@@ -132,7 +132,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/marketing-strategy-business-commerce-solution-concept_53876-98143.jpg?t=st=1718727233~exp=1718730833~hmac=36ed91d1edb699f42b3c6d7c19fb48d08e306edae5919e305b9dab49c33fb7e4&w=2000",
     alt: "Digital Marketing Image",
     brifDescription: (
       <p>
@@ -154,10 +154,10 @@ const features: Feature[] = [
         <br />
         Moreover, the integration of cutting-edge technologies, such as machine
         learning and predictive analytics, empowers businesses to anticipate
-        their customers&#39; future actions and proactively address their evolving
-        requirements. This level of responsiveness and adaptability is crucial
-        in today&#39;s fast-paced digital world, where consumer expectations are
-        constantly shifting.
+        their customers&#39; future actions and proactively address their
+        evolving requirements. This level of responsiveness and adaptability is
+        crucial in today&#39;s fast-paced digital world, where consumer
+        expectations are constantly shifting.
         <br />
         <br />
         By embracing the latest advancements in digital marketing technology,
@@ -175,7 +175,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595831.jpg?t=st=1718727292~exp=1718730892~hmac=34c02c561d774bcff0dee0ead3a0062e93f7c5e05f42c96fb852b791c2aaf075&w=2000",
     alt: "Infrastructure Security Image",
     brifDescription: (
       <p>
@@ -219,7 +219,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/three-businesspersons-meeting_23-2147626534.jpg?t=st=1718727309~exp=1718730909~hmac=07413f15fbd9713ad73b49abc1d72c0c73322bdcf487a1aa641f82a7f00f51f7&w=2000",
     alt: "Business Consulting Image",
     brifDescription: (
       <p>
@@ -240,10 +240,10 @@ const features: Feature[] = [
         <br />
         Through a collaborative approach, consultants work closely with business
         leaders to assess the current state of the organization, diagnose
-        underlying challenges, and develop comprehensive solutions. Whether it&#39;s
-        optimizing operational efficiency, enhancing financial performance, or
-        driving digital transformation, the guidance of seasoned consultants can
-        be instrumental in propelling a business forward.
+        underlying challenges, and develop comprehensive solutions. Whether
+        it&#39;s optimizing operational efficiency, enhancing financial
+        performance, or driving digital transformation, the guidance of seasoned
+        consultants can be instrumental in propelling a business forward.
         <br />
         <br />
         Moreover, business consultants offer an objective, unbiased view that
@@ -274,7 +274,7 @@ const FeaturesSection: React.FC = () => {
           <div className="space-y-12 text-center">
             <img
               src={feature.imageSrc}
-              className="h-44 w-full rounded-3xl"
+              className="h-44 w-full object-cover rounded-3xl"
               width={712}
               height={712}
               alt={feature.alt}
@@ -314,7 +314,7 @@ const FeaturesSection: React.FC = () => {
                     <div className="pb-3">
                       <img
                         src={feature.imageSrc}
-                        className="h-44 object-cover w-full rounded-3xl"
+                        className="h-72 object-cover w-full rounded-3xl"
                         width={712}
                         height={712}
                         alt={feature.alt}
