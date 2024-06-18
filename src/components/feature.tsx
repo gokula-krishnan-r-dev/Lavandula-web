@@ -88,7 +88,7 @@ const features: Feature[] = [
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
     imageSrc:
-      "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
+      "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1718728019~exp=1718731619~hmac=f642d4ffcbcd4476b16a8541df5b420b58b07f5b60cec267c77d69e3eb976adc&w=1380",
     alt: "Mobile App Development Image",
     brifDescription: (
       <p>

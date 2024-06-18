@@ -107,17 +107,35 @@ const Form: React.FC = () => {
         <div className="text-center">
           <svg
             className="w-16 h-16 mx-auto mb-4 text-green-500"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
+            version="1.1"
+            id="Capa_1"
             xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 50 50"
+            xmlSpace="preserve"
+            fill="#000000"
           >
-            <path
+            <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+            <g
+              id="SVGRepo_tracerCarrier"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 12l2 2 4-4m0 0a9 9 0 11-6 5.29A9 9 0 0112 21"
             />
+            <g id="SVGRepo_iconCarrier">
+              {" "}
+              <circle style={{ fill: "#25AE88" }} cx={25} cy={25} r={25} />{" "}
+              <polyline
+                style={{
+                  fill: "none",
+                  stroke: "#FFFFFF",
+                  strokeWidth: 2,
+                  strokeLinecap: "round",
+                  strokeLinejoin: "round",
+                  strokeMiterlimit: 10,
+                }}
+                points=" 38,15 22,33 12,25 "
+              />{" "}
+            </g>
           </svg>
           <h3 className="text-lg font-medium text-green-700 dark:text-green-500">
             Form submitted successfully!
@@ -201,13 +219,11 @@ interface WorkingHour {
 }
 
 const workingHours: WorkingHour[] = [
-  { day: "Mon", fullDay: "Monday", from: "9:00am", to: "10:00pm" },
-  { day: "Tue", fullDay: "Tuesday", from: "9:00am", to: "10:00pm" },
-  { day: "Wed", fullDay: "Wednesday", from: "9:00am", to: "10:00pm" },
-  { day: "Thu", fullDay: "Thursday", from: "9:00am", to: "10:00pm" },
-  { day: "Fri", fullDay: "Friday", from: "9:00am", to: "10:00pm" },
-  { day: "Sat", fullDay: "Saturday", from: "9:00am", to: "6:00pm" },
-  { day: "Sun", fullDay: "Sunday", from: "9:00am", to: "12:00pm" },
+  { day: "Mon", fullDay: "Monday", from: "10:00am", to: "6:00pm" },
+  { day: "Tue", fullDay: "Tuesday", from: "10:00am", to: "6:00pm" },
+  { day: "Wed", fullDay: "Wednesday", from: "10:00am", to: "6:00pm" },
+  { day: "Thu", fullDay: "Thursday", from: "10:00am", to: "6:00pm" },
+  { day: "Fri", fullDay: "Friday", from: "10:00am", to: "6:00pm" },
 ];
 
 export const WorkingHoursList: React.FC = () => {

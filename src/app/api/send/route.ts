@@ -1,5 +1,5 @@
 import { Resend } from "resend";
-const resend = new Resend("re_V697c5jZ_6sE457E2qrpZqr4YUvt3Qbr8");
+const resend = new Resend("re_F8RR7ugj_2zLrciXTRpAwY3XP9kJv1wNr");
 
 export async function POST(request: any) {
   try {
@@ -43,7 +43,7 @@ export async function POST(request: any) {
 
     const { data, error } = await resend.emails.send({
       from: "Ampire <onboarding@resend.dev>",
-      to: ["business@lavandula.in"], // Replace with the admin's email address
+      to: ["zalonfirebaseconsole@gmail.com"], // Replace with the admin's email address
       subject: "New Contact Form Submission",
       html: htmlContent,
     });

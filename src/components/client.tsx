@@ -1,6 +1,14 @@
 import React from "react";
 
 const Client = () => {
+  const clients = [
+    "Zalon Partner",
+    "Shira Enterprises",
+    "Mialyn",
+    "MV Groups",
+    "LabourMAX",
+  ];
+
   return (
     <section id="customer">
       <div className=" px-5 py-24 mx-auto lg:px-16">
@@ -17,28 +25,14 @@ const Client = () => {
           </span>
         </div>
         <div className="mx-auto text-center">
-          <div className="grid grid-cols-3 gap-4 mx-auto lg:grid-cols-3">
-            <div>
-              <img
-                className="h-4 mx-auto lg:h-16"
-                src="/client/1.jpeg"
-                alt="Figma"
-              />
-            </div>
-            <div>
-              <img
-                className="h-4 mx-auto lg:h-12"
-                src="/client/2.jpeg"
-                alt="Framer"
-              />
-            </div>
-            <div>
-              <img
-                className="h-4 mx-auto lg:h-12"
-                src="/client/3.jpeg"
-                alt="Sketch "
-              />
-            </div>
+          <div className="grid grid-cols-5 gap-4 mx-auto lg:grid-cols-5">
+            {clients.map((client, index) => (
+              <div key={index}>
+                <h1 className="font-bold text-2xl lg:text-2xl text-gray-500">
+                  {client}
+                </h1>
+              </div>
+            ))}
           </div>
         </div>
       </div>
