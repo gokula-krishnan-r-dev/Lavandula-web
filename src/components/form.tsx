@@ -71,7 +71,7 @@ const Form: React.FC = () => {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:3000/api/send", {
+      const response = await fetch("/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
