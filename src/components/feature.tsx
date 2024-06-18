@@ -18,7 +18,6 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Website Development Image",
-
     brifDescription: (
       <span>
         In today&#39;s rapidly evolving digital landscape, businesses that
@@ -53,6 +52,36 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Web App Development Image",
+    brifDescription: (
+      <span>
+        Leveraging the power of cutting-edge web app development, businesses can
+        unlock unprecedented levels of productivity and revenue growth. By
+        embracing the latest technological advancements, companies can create
+        tailored solutions that streamline operations, enhance collaboration,
+        and drive strategic decision-making. At the core of this transformation
+        lies the ability to develop custom web applications that cater precisely
+        to the unique needs of your business. These applications can automate
+        time-consuming tasks, facilitate seamless information sharing, and
+        provide real-time insights that empower your team to make informed
+        choices. By streamlining workflows and eliminating manual processes, web
+        app development can significantly boost employee efficiency, freeing up
+        valuable time and resources to focus on high-impact initiatives.
+        Moreover, web apps designed with a customer-centric approach can elevate
+        the user experience, fostering stronger brand loyalty and driving
+        increased revenue. Intuitive interfaces, personalized features, and
+        seamless cross-device compatibility can attract and retain a loyal
+        customer base, ultimately translating to a healthier bottom line.
+        Investing in web app development also positions your business for
+        long-term success by ensuring adaptability to evolving market demands
+        and technological trends. With the ability to continuously update and
+        enhance your web applications, you can stay ahead of the curve,
+        outpacing your competitors and solidifying your position as an industry
+        leader. By embracing the power of web app development, businesses can
+        unlock a transformative pathway to enhanced productivity, increased
+        revenue, and a competitive edge that will propel them towards sustained
+        growth and profitability.
+      </span>
+    ),
   },
   {
     title: "Mobile App Development",
@@ -61,6 +90,42 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Mobile App Development Image",
+    brifDescription: (
+      <p>
+        Developing a tailored mobile app htmlFor your business is a strategic
+        move that can significantly enhance your reach and engagement with your
+        target audience. By leveraging the latest technology in both Android and
+        iOS platforms, you can create a seamless and user-friendly experience
+        that sets your business apart in the competitive market.
+        <br />
+        <br />
+        With the increasing reliance on mobile devices for everyday tasks, a
+        well-designed and feature-rich mobile app can become a powerful tool to
+        showcase your products or services, facilitate seamless transactions,
+        and foster stronger connections with your customers. By investing in a
+        tailored mobile app, you can ensure that your business is positioned at
+        the forefront of the digital landscape, providing your customers with a
+        convenient and accessible way to interact with your brand.
+        <br />
+        <br />
+        The integration of the latest technology, such as cutting-edge user
+        interface (UI) design, intuitive navigation, and secure payment
+        gateways, can elevate the overall user experience and drive higher
+        levels of customer satisfaction. Moreover, the ability to collect
+        valuable data and insights through your mobile app can help you make
+        informed decisions, optimize your marketing strategies, and continually
+        improve the app&#39;s functionality to better meet the evolving needs of
+        your customers.
+        <br />
+        <br />
+        Ultimately, a tailored mobile app developed for both Android and iOS
+        platforms can serve as a powerful tool to enhance your business&#39;s
+        competitiveness, increase customer loyalty, and drive sustainable growth
+        in the digital age. By partnering with experienced mobile app
+        development experts, you can bring your vision to life and unlock a
+        world of opportunities for your business.
+      </p>
+    ),
   },
   {
     title: "Digital Marketing",
@@ -69,6 +134,41 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Digital Marketing Image",
+    brifDescription: (
+      <p>
+        Businesses looking to stay ahead in the digital landscape can no longer
+        afford to overlook the power of tailored digital marketing. By
+        leveraging the latest technology, companies can craft highly
+        personalized campaigns that resonate with their target audience on a
+        deeper level. <br />
+        <br />
+        Implementing advanced data analytics and AI-driven tools, businesses can
+        gain unprecedented insights into their customers&#39; behaviors,
+        preferences, and pain points. This wealth of information allows them to
+        develop targeted marketing strategies that speak directly to the needs
+        and desires of each individual consumer. From personalized product
+        recommendations to customized email campaigns, the possibilities are
+        endless when it comes to delivering a truly unique and engaging digital
+        experience.
+        <br />
+        <br />
+        Moreover, the integration of cutting-edge technologies, such as machine
+        learning and predictive analytics, empowers businesses to anticipate
+        their customers&#39; future actions and proactively address their evolving
+        requirements. This level of responsiveness and adaptability is crucial
+        in today&#39;s fast-paced digital world, where consumer expectations are
+        constantly shifting.
+        <br />
+        <br />
+        By embracing the latest advancements in digital marketing technology,
+        businesses can not only capture the attention of their audience but also
+        foster stronger, more meaningful relationships. This, in turn,
+        translates into increased brand loyalty, higher conversion rates, and
+        ultimately, a significant competitive edge in the market. The time to
+        invest in tailored digital marketing is now, as those who fail to adapt
+        risk being left behind in the ever-evolving digital landscape.
+      </p>
+    ),
   },
   {
     title: "Infrastructure Security ",
@@ -77,6 +177,42 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Infrastructure Security Image",
+    brifDescription: (
+      <p>
+        Businesses today face an ever-evolving landscape of cyber threats,
+        making robust infrastructure security a critical necessity. Leveraging
+        the latest technology advancements is the key to safeguarding your
+        organization&#39;s sensitive data and mission-critical systems. By
+        implementing cutting-edge security solutions, you can establish a
+        formidable defense against malicious actors and ensure the integrity of
+        your digital assets.
+        <br />
+        <br />
+        Advanced threat detection and response systems powered by artificial
+        intelligence and machine learning can proactively identify and mitigate
+        cyber threats in real-time, providing an early warning system to protect
+        your infrastructure. Secure cloud-based storage and collaboration
+        platforms ensure your data is stored safely and accessible only to
+        authorized personnel, while encrypted communication channels safeguard
+        your business transactions and sensitive information.
+        <br />
+        <br />
+        Automated vulnerability scanning and patch management tools enable you
+        to stay ahead of evolving security risks, quickly addressing weaknesses
+        and deploying the latest security updates across your infrastructure.
+        Comprehensive identity and access management solutions, coupled with
+        multi-factor authentication, reinforce your perimeter defenses and
+        control who can access your critical systems.
+        <br />
+        <br />
+        By investing in the latest infrastructure security technologies, you can
+        transform your organization into a resilient, cyber-resistant fortress,
+        able to withstand even the most sophisticated attacks. This strategic
+        approach not only safeguards your business but also instills confidence
+        in your customers, partners, and stakeholders, positioning your company
+        as a trusted leader in the digital landscape.
+      </p>
+    ),
   },
   {
     title: "Business Consulting ",
@@ -85,6 +221,45 @@ const features: Feature[] = [
     imageSrc:
       "https://cdn.b12.io/client_media/ELma8729/bf95f92c-20be-11ef-a1ee-0242ac110002-jpg-regular_image.jpeg",
     alt: "Business Consulting Image",
+    brifDescription: (
+      <p>
+        Businesses today face an ever-evolving landscape of challenges and
+        opportunities. In this dynamic environment, the value of professional
+        business consulting cannot be overstated. Experienced consultants
+        possess the expertise and industry insights to help organizations
+        navigate complex issues, identify growth strategies, and unlock their
+        full potential.
+        <br />
+        <br />
+        By partnering with a reputable business consulting firm, companies can
+        gain a fresh perspective and access to a wealth of knowledge that may be
+        difficult to cultivate in-house. Consultants bring a deep understanding
+        of market trends, industry best practices, and proven methodologies that
+        can be tailored to the unique needs of each client.
+        <br />
+        <br />
+        Through a collaborative approach, consultants work closely with business
+        leaders to assess the current state of the organization, diagnose
+        underlying challenges, and develop comprehensive solutions. Whether it&#39;s
+        optimizing operational efficiency, enhancing financial performance, or
+        driving digital transformation, the guidance of seasoned consultants can
+        be instrumental in propelling a business forward.
+        <br />
+        <br />
+        Moreover, business consultants offer an objective, unbiased view that
+        can challenge existing assumptions and inspire innovative thinking. By
+        bringing an outside-in perspective, they can help organizations identify
+        blind spots, mitigate risks, and capitalize on emerging possibilities.
+        <br />
+        <br />
+        Investing in business consulting services is not merely an expense, but
+        a strategic investment in the long-term success and resilience of an
+        organization. With their specialized expertise and proven track record,
+        consultants can help businesses navigate the complexities of today&#39;s
+        competitive landscape and position themselves for sustained growth and
+        profitability.
+      </p>
+    ),
   },
 ];
 
@@ -136,7 +311,7 @@ const FeaturesSection: React.FC = () => {
               >
                 <div className="">
                   <ScrollArea className="h-96 mt-5">
-                    <div className="">
+                    <div className="pb-3">
                       <img
                         src={feature.imageSrc}
                         className="h-44 object-cover w-full rounded-3xl"
