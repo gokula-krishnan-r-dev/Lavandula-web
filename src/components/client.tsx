@@ -12,7 +12,7 @@ const Client = () => {
   return (
     <section id="customer">
       <div className=" px-5 py-24 mx-auto lg:px-16">
-        <div className="flex flex-col w-full mb-8 text-center">
+        {/* <div className="flex flex-col w-full mb-8 text-center">
           <span className="mb-4 text-sm font-medium tracking-wide text-gray-500 uppercase">
             The best front end teams use Wickedtemplates to state their
             presence.
@@ -23,7 +23,7 @@ const Client = () => {
               Our customers »
             </a>
           </span>
-        </div>
+        </div> */}
         <div className="mx-auto text-center">
           <div className="grid grid-cols-5 gap-4 mx-auto lg:grid-cols-5">
             {clients.map((client, index) => (
