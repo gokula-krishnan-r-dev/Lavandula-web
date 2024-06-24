@@ -230,7 +230,7 @@ export const WorkingHoursList: React.FC = () => {
   const [hours, setHours] = useState(workingHours);
 
   return (
-    <div className="max-w-xl mx-auto p-4">
+    <div className="max-w-xl mx-auto p-0">
       <h2 className="text-2xl font-bold mb-4">Working Hours</h2>
       <ol aria-label="Working hours" className="list-decimal flex items-center">
         <div className="">
