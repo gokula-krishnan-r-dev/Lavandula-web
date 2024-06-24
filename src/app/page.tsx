@@ -63,7 +63,7 @@ export default function Home() {
             {/* Buttons */}
             <div className="mt-8 gap-3 flex justify-center">
               <a
-                className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-[#32aa27]  border border-transparent text-white text-sm font-medium rounded-full py-3 px-4 dark:focus:ring-offset-gray-800"
+                className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-blue-500  border border-transparent text-white text-sm font-medium rounded-full py-3 px-4 dark:focus:ring-offset-gray-800"
                 href="#service"
               >
                 <ChevronRight />
