@@ -18,7 +18,7 @@ export default function Home() {
           alt=""
         /> */}
 
-        <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 dark:before:bg-[url('https://img.freepik.com/free-photo/website-hosting-concept-with-bright-light_23-2149406783.jpg?t=st=1718728712~exp=1718732312~hmac=99fe41c7c9a091aadae8fa7de78765f234ec0d25fc5ad0eee852bbddddb1333c&w=2000')] before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+        <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 dark:before:bg-[url('/imgs/1.jpg')] before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
             {/* Announcement Banner */}
             <div className="flex justify-center">
@@ -85,7 +85,7 @@ export default function Home() {
             <div>
               <img
                 className="rounded-xl"
-                src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038841.jpg?t=st=1718728802~exp=1718732402~hmac=e75144c68d01a30d4794c551f694ed00ed6d8143384bb3fcd0760e6131b2c8a4&w=2000"
+                src="/imgs/2.jpg"
                 alt="Image Description"
               />
             </div>

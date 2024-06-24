@@ -15,8 +15,7 @@ const features: Feature[] = [
     title: "Website Development",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/programming-background-collage_23-2149901791.jpg?t=st=1718727134~exp=1718730734~hmac=3c20692774f9ef6619111e81f8ee251dd476a20e65275a16a6fa19cb41e87de7&w=2000",
+    imageSrc: "/imgs/3.jpg",
     alt: "Website Development Image",
     brifDescription: (
       <span>
@@ -49,8 +48,7 @@ const features: Feature[] = [
     title: "Web App Development ",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?t=st=1718727190~exp=1718730790~hmac=afe6baa0b0175cf4021e72842eadc7f0e24caec9124a84944f9025b59137753f&w=2000",
+    imageSrc: "/imgs/4.jpg",
     alt: "Web App Development Image",
     brifDescription: (
       <span>
@@ -87,8 +85,7 @@ const features: Feature[] = [
     title: "Mobile App Development",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1718728019~exp=1718731619~hmac=f642d4ffcbcd4476b16a8541df5b420b58b07f5b60cec267c77d69e3eb976adc&w=1380",
+    imageSrc: "/imgs/5.jpg",
     alt: "Mobile App Development Image",
     brifDescription: (
       <p>
@@ -131,8 +128,7 @@ const features: Feature[] = [
     title: "Digital Marketing",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/marketing-strategy-business-commerce-solution-concept_53876-98143.jpg?t=st=1718727233~exp=1718730833~hmac=36ed91d1edb699f42b3c6d7c19fb48d08e306edae5919e305b9dab49c33fb7e4&w=2000",
+    imageSrc: "/imgs/6.jpg",
     alt: "Digital Marketing Image",
     brifDescription: (
       <p>
@@ -174,8 +170,7 @@ const features: Feature[] = [
     title: "Infrastructure Security ",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595831.jpg?t=st=1718727292~exp=1718730892~hmac=34c02c561d774bcff0dee0ead3a0062e93f7c5e05f42c96fb852b791c2aaf075&w=2000",
+    imageSrc: "/imgs/7.jpg",
     alt: "Infrastructure Security Image",
     brifDescription: (
       <p>
@@ -218,8 +213,7 @@ const features: Feature[] = [
     title: "Business Consulting ",
     description:
       "Our team of expert web developers will work with you to create a stunning, user-friendly website that showcases your brand and drives conversions. From custom design to responsive development, we have you covered.",
-    imageSrc:
-      "https://img.freepik.com/free-photo/three-businesspersons-meeting_23-2147626534.jpg?t=st=1718727309~exp=1718730909~hmac=07413f15fbd9713ad73b49abc1d72c0c73322bdcf487a1aa641f82a7f00f51f7&w=2000",
+    imageSrc: "/imgs/8.jpg",
     alt: "Business Consulting Image",
     brifDescription: (
       <p>
