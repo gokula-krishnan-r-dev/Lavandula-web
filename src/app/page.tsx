@@ -1,7 +1,6 @@
 import Client from "@/components/client";
 import Contact from "@/components/contact";
 import FeaturesSection from "@/components/feature";
-import Test from "@/components/test";
 import { ChevronRight } from "lucide-react";
 
 export default function Home() {
